@@ -1,6 +1,6 @@
 .main-page {
   display: flex;
-  height: 100%;
+  height: 100vh;
   box-sizing: border-box;
 }
 
@@ -19,11 +19,21 @@
 .right {
   width: 460px;
   background-color: white;
-  padding: 30px 30px 0 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+
+  
 
   .title {
     font-size: 20px;
     font-weight: bold;
     color: #2d2d2d;
+  }
+
+  a {
+    text-decoration: none;
   }
 }

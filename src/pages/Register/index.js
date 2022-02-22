@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { registerBg } from '../../assets';
-import { Input, Button, Gap } from '../../components';
+import { Input, Button, Gap, ButtonLink } from '../../components';
 import './register.scss';
 
 const Register = () => {
@@ -10,6 +11,9 @@ const Register = () => {
         <img src={registerBg} alt="" className="bg-image" />
       </div>
       <div className="right">
+        <Link to="/login">
+          <ButtonLink title="Back to Login" />
+        </Link>
         <p className="title">Register</p>
         <Input label="Fullname" />
         <Gap height={10} />
