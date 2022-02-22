@@ -1,0 +1,15 @@
+.link {
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: darkblue;
+    width: 100px;
+    padding: 10px;
+    
+}
+
+.link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
