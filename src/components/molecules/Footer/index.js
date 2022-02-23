@@ -30,6 +30,7 @@ const Footer = () => {
         <Icon img={instagram} />
         <Icon img={twitter} />
         <Icon img={instagram} />
+        <Icon img={youtube} />
       </div>
     </div>
   );
